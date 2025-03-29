@@ -1,11 +1,11 @@
-id = "pylsp"
-name = "Python LSP"
+id = "odoo-lsp"
+name = "Odoo LSP"
 version = "0.0.1"
 schema_version = 1
-authors = ["Kyle Kelley <rgbkrk@gmail.com>"]
-description = "python-lsp extension for Zed"
-repository = "https://github.com/rgbkrk/python-lsp-zed-extension"
+authors = ["CM Wedding GmbH", "Oskar Manhart <me@oskar.global>"]
+description = "odoo-lsp extension for Zed"
+repository = "https://github.com/cmwedding-it/odoo-lsp-zed"
 
-[language_servers.pylsp]
-name = "pylsp"
-languages = ["Python"]
+[language_servers.odoo-lsp]
+name = "odoo-lsp"
+languages = ["Python", "JavaScript", "XML"]
